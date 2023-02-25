@@ -1,0 +1,36 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews__review {
+    margin: 0 100px;
+    margin-bottom: 40px;
+}
+
+.review__icon {
+    margin-right: 20px;
+}
+
+.review__body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #001AFF;
+    border-radius: 65px;
+    padding: 10px;
+}
+
+.review__text {
+    word-wrap: break-word;
+    padding: 5px;
+}
+
+.review__hashtags {
+    margin-top: 10px;
+    margin-left: 20px;
+}

@@ -1,0 +1,18 @@
+.hashtags {
+    display: flex;
+    flex-direction: row;
+}
+
+.hashtags__hashtag {
+    color: rgba(0, 0, 0, 0.61);
+    transition: all .2s linear;
+    margin: 0 2px;
+}
+
+.hashtags__hashtag::before {
+    content: '#';
+}
+
+.hashtags__hashtag:hover {
+    color: rgba(0, 0, 0, 0.87);
+}

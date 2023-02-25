@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../main/style.css">
+    </head>
+
+    <body class="body">
+        <header class="header">
+            <div class="site-info header__site-info">
+                <img src="../sources/site_icon.png" alt="" class="icon site-info__icon icon_small">
+                <h2 class="site-info__header">TWF</h2>
+            </div>
+            <nav class="nav">
+                <p class="nav__actions">
+                    <a href="" class="nav__action"> Личный кабинет </a>
+                    /
+                    <a href="" class="nav__action"> Меню </a>
+                </p>
+                <a class="nav__menu-link">
+                    <img src="https://img.icons8.com/ios-filled/25/null/menu-rounded.png" alt="" class="nav__menu-icon">
+                </a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <form action="" class="search-form main__search-form">
+                <input type="text" class="text-field search-form__text-field" placeholder="Выбор города"
+                    list="city-datalist">
+
+                <datalist id="cities-list">
+                    <option value="city1"> Санкт-Петербург </option>
+                    <option value="city2"> Город 2 </option>
+                    <option value="city3"> Город 3 </option>
+                    <option value="city4"> Город 4 </option>
+                    <option value="city5"> Город 5 </option>
+                </datalist>
+
+                <button type="submit" class="button main__city-form-button"> Найти </button>
+            </form>
+
+            <div class="main__all-top-places all-top-places">
+                <div
+                    class="top-places-wrapper all-top-places__top-places-wrapper all-top-places__top-places-wrapper_left-sided">
+                    <div class="top-places top-places-wrapper__top-places top-places-wrapper__top-places_left-sided">
+                        <div class="top-places__header top-places__header_left-sided">
+                            <h1 class="top-places__title"> Топ 3 </h1>
+                            <p class="top-places__subtitle"> Мест для прогулок </p>
+                        </div>
+
+                        <div class="top-places__imgs">
+                            <a href="" class="top-places__img-link">
+                                <img src="../sources/place_image.png" alt="" class="top-places__img">
+                            </a>
+                            <a href="" class="top-places__img-link">
+                                <img src="../sources/place_image.png" alt="" class="top-places__img">
+                            </a>
+                            <a href="" class="top-places__img-link">
+                                <img src="../sources/place_image.png" alt="" class="top-places__img">
+                            </a>
+                        </div>
+
+                        <div class="arrows top-places__arrows arrows_left-sided">
+                            <img src="../sources/white_arrow.svg" class="arrows__arrow">
+                            <img src="../sources/blue_arrow.svg" class="arrows__arrow arrows__arrow_blue">
+                            <img src="../sources/white_arrow.svg" class="arrows__arrow">
+                        </div>
+                    </div>
+
+                    <a href=""
+                        class="top-places-wrapper__link top-places-wrapper__link_left-sided top-places-wrapper__link_color-black">
+                        смотреть все места --->
+                    </a>
+                </div>
+
+                <div
+                    class="top-places-wrapper all-top-places__top-places-wrapper all-top-places__top-places-wrapper_right-sided">
+                    <div class="top-places top-places-wrapper__top-places top-places-wrapper__top-places_right-sided">
+                        <div class="top-places__header top-places__header_right-sided">
+                            <h1 class="top-places__title"> Самые </h1>
+                            <p class="top-places__subtitle"> Посещаемые места </p>
+                        </div>
+
+                        <div class="top-places__imgs">
+                            <a href="" class="top-places__img-link">
+                                <img src="../sources/place_image.png" alt="" class="top-places__img">
+                            </a>
+                            <a href="" class="top-places__img-link">
+                                <img src="../sources/place_image.png" alt="" class="top-places__img">
+                            </a>
+                            <a href="" class="top-places__img-link">
+                                <img src="../sources/place_image.png" alt="" class="top-places__img">
+                            </a>
+                        </div>
+
+                        <div class="arrows top-places__arrows arrows_right-sided">
+                            <img src="../sources/white_arrow.svg" class="arrows__arrow">
+                            <img src="../sources/black_arrow.svg" class="arrows__arrow top-places__arrow_black">
+                            <img src="../sources/white_arrow.svg" class="arrows__arrow">
+                        </div>
+                    </div>
+
+                    <a href=""
+                        class="top-places-wrapper__link top-places-wrapper__link_right-sided top-places-wrapper__link_color-black">
+                        смотреть все места --->
+                    </a>
+                </div>
+            </div>
+
+            <div class="categories-wrapper main__categories-wrapper">
+                <div class="categories-wrapper__header">
+                    <p class="title categories-wrapper__title title_big-p"> Выбирай места, которые тебе понравятся! </p>
+                    <img src="../sources/black_arrow.svg" alt="" class="categories-wrapper__arrow arrow_turned-down">
+                </div>
+
+                <div class="categories categories-wrapper__categories">
+                    <div class="category categories__category">
+                        <a href="" class="category__link">
+                            <p class="category__title"> lorem ipsum dorem </p>
+                            <img src="../sources/blue_dot.svg" alt="" class="category__dot">
+                        </a>
+                    </div>
+
+                    <div class="category categories__category">
+                        <a href="" class="category__link">
+                            <p class="category__title"> lorem ipsum dorem </p>
+                            <img src="../sources/blue_dot.svg" alt="" class="category__dot">
+                        </a>
+                    </div>
+
+                    <div class="category categories__category">
+                        <a href="" class="category__link">
+                            <p class="category__title"> lorem ipsum dorem </p>
+                            <img src="../sources/blue_dot.svg" alt="" class="category__dot">
+                        </a>
+                    </div>
+
+                    <div class="category categories__category">
+                        <a href="" class="category__link">
+                            <p class="category__title"> lorem ipsum dorem </p>
+                            <img src="../sources/blue_dot.svg" alt="" class="category__dot">
+                        </a>
+                    </div>
+
+                    <div class="category categories__category">
+                        <a href="" class="category__link">
+                            <p class="category__title"> lorem ipsum dorem </p>
+                            <img src="../sources/blue_dot.svg" alt="" class="category__dot">
+                        </a>
+                    </div>
+
+                    <div class="category categories__category">
+                        <a href="" class="category__link">
+                            <p class="category__title"> lorem ipsum dorem </p>
+                            <img src="../sources/blue_dot.svg" alt="" class="category__dot">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrows main__arrows arrows_turned-down">
+                <img src="../sources/blue_arrow.svg" class="arrow arrows__arrow arrow_turned-down">
+                <img src="../sources/white_arrow.svg" class="arrow arrows__arrow arrow_turned-down">
+            </div>
+
+            <div class="routes-wrapper main__routes-wrapper">
+                <div class="routes-wrapper__header">
+                    <p class="title routes-wrapper__title title_big-p">
+                        Маршруты
+                    </p>
+                </div>
+
+                <div class="routes-wrapper__routes">
+                    <div class="route-category routes__route-category">
+                        <a href="" class="route-category__link">
+                            <p class="route-category__title button">Современные площадки</p>
+                            <img src="../sources/hist_routes.png" alt="" class="route-category__img">
+                        </a>
+                    </div>
+
+                    <div class="route-category routes__route-category">
+                        <a href="" class="route-category__link">
+                            <p class="route-category__title button">lorem ipsum dorem</p>
+                            <img src="../sources/hist_routes.png" alt="" class="route-category__img">
+                        </a>
+                    </div>
+
+                    <div class="route-category routes__route-category">
+                        <a href="" class="route-category__link">
+                            <p class="route-category__title button">lorem ipsum dorem</p>
+                            <img src="../sources/hist_routes.png" alt="" class="route-category__img">
+                        </a>
+                    </div>
+
+                    <div class="route-category routes__route-category">
+                        <a href="" class="route-category__link">
+                            <p class="route-category__title button">lorem ipsum dorem</p>
+                            <img src="../sources/hist_routes.png" alt="" class="route-category__img">
+                        </a>
+                    </div>
+
+                    <div class="route-category routes__route-category">
+                        <a href="" class="route-category__link">
+                            <p class="route-category__title button">lorem ipsum dorem</p>
+                            <img src="../sources/hist_routes.png" alt="" class="route-category__img">
+                        </a>
+                    </div>
+
+                    <div class="route-category routes__route-category">
+                        <a href="" class="route-category__link">
+                            <p class="route-category__title button">lorem ipsum dorem</p>
+                            <img src="../sources/hist_routes.png" alt="" class="route-category__img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-wrapper main__reviews-wrapper">
+                <div class="reviews-wrapper__header">
+                    <div class="reviews-wrapper__title-wrapper">
+                        <p class="title reviews-wrapper__title reviews-wrapper__title_first title_big-p">
+                            До сих пор сомневаешься?
+                        </p>
+                        <p class="title reviews-wrapper__title reviews-wrapper__title_second title_big-p">
+                            - Смотри отзывы и общайся с людьми!
+                        </p>
+                    </div>
+
+                    <img src="../sources/questions.png" alt="" class="reviews-wrapper__questions">
+                </div>
+
+                <div class="reviews reviews-wrapper__reviews">
+                    <div class="review reviews__review">
+                        <a class="review__user-link" href="">
+                            <img src="../sources/user_icon.png" alt=""
+                                class="icon review__icon icon_small icon_blue-border">
+                        </a>
+                        <div class="review__body">
+                            <p class="review__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil quos sint quis
+                                itaque
+                                corporis eligendi quae mollitia, quaerat eos repellat, vel harum unde, aspernatur non
+                                consectetur reprehenderit? Quo, libero!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti natus odit quis
+                                provident non, autem sunt nemo deleniti, ab veniam officiis consequuntur praesentium
+                                ipsum dolor aspernatur quidem doloribus suscipit modi!
+                            </p>
+                            <div class="hashtags review__hashtags">
+                                <a href="" class="hashtags__hashtag">hastag1</a>
+                                <a href="" class="hashtags__hashtag">hastag2</a>
+                                <a href="" class="hashtags__hashtag">hastag3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review reviews__review">
+                        <a href="" class="review__user-link">
+                            <img src="../sources/user_icon.png" alt=""
+                                class="icon review__icon icon_small icon_blue-border">
+                        </a>
+                        <div class="review__body">
+                            <p class="review__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil quos sint quis
+                                itaque
+                                corporis eligendi quae mollitia, quaerat eos repellat, vel harum unde, aspernatur non
+                                consectetur reprehenderit? Quo, libero!
+                            </p>
+                            <div class="hashtags review__hashtags">
+                                <a href="" class="hashtags__hashtag">hastag1</a>
+                                <a href="" class="hashtags__hashtag">hastag2</a>
+                                <a href="" class="hashtags__hashtag">hastag3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review reviews__review">
+                        <a class="review__user-link" href="">
+                            <img src="../sources/user_icon.png" alt=""
+                                class="icon review__icon icon_small icon_blue-border">
+                        </a>
+                        <div class="review__body">
+                            <p class="review__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil quos sint quis
+                                itaque
+                                corporis eligendi quae mollitia, quaerat eos repellat, vel harum unde, aspernatur non
+                                consectetur reprehenderit? Quo, libero!
+                            </p>
+                            <div class="hashtags review__hashtags">
+                                <a href="" class="hashtags__hashtag">hastag1</a>
+                                <a href="" class="hashtags__hashtag">hastag2</a>
+                                <a href="" class="hashtags__hashtag">hastag3</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews-wrapper__see-more-wrapper">
+                    <p class="reviews-wrapper__see-more"> ёще больше отзывов </p>
+                    <p class="reviews-wrapper__see-more-dots">...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="contacts footer__contacts">
+                <div class="contact contacts__contact">
+                    <a href="" class="contact__link">
+                        <img src="../sources/vk.png" alt="" class="contact__img">
+                        <p class="contact__title">Группа ВК</p>
+                    </a>
+                </div>
+                <div class="contacts__contact">
+                    <a href="" class="contact__link">
+                        <img src="../sources/mail.png" alt="" class="contact__img">
+                        <p class="contact__title">Электронная почта</p>
+                    </a>
+                </div>
+                <div class="contacts__contact">
+                    <a href="" class="contact__link">
+                        <img src="../sources/telegram.png" alt="" class="contact__img">
+                        <p class="contact__title">Телеграм</p>
+                    </a>
+                </div>
+                <div class="contacts__contact">
+                    <a href="" class="contact__link">
+                        <img src="../sources/call.png" alt="" class="contact__img">
+                        <p class="contact__title">Позонить нам</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__company-info">
+                <!-- site-icon footer__site-icon footer__site-icon_white-border -->
+                <img src="../sources/site_icon.png" alt="" class="icon footer__icon icon_small icon_white-border">
+                <p class="footer__company-address">Россия, Республика Марий Эл, Йошкар-Ола</p>
+                <p class="footer__company-reg-date">22.11.2022</p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
